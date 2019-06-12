@@ -1,6 +1,5 @@
-@Library('jijeesh-lib@lib1') _
+@Library('jijeesh-lib@lib') _
 node {
+  getImage('centos')
 
-   log.info 'Hello'
-   log.error 'World'
 }
